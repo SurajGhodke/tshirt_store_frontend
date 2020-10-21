@@ -50,7 +50,7 @@ const Signup = () => {
                 className="form-control"
                 onChange={handleChange("name")}
                 type="text"
-                //value={name}
+                value={name}
               />
             </div>
             <div className="form-group">
@@ -59,7 +59,7 @@ const Signup = () => {
                 onChange={handleChange("email")}
                 className="form-control"
                 type="email"
-                //value={email}
+                value={email}
               />
             </div>
 
@@ -69,7 +69,7 @@ const Signup = () => {
                 onChange={handleChange("password")}
                 className="form-control"
                 type="password"
-                //value={password}
+                value={password}
               />
             </div>
             <button onClick={onSubmit} className="btn btn-success btn-block">

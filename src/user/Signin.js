@@ -88,7 +88,7 @@ const Signin = () => {
               <label className="text-light">Email</label>
               <input
                 onChange={handleChange("email")}
-                //value={email}
+                value={email}
                 className="form-control"
                 type="email"
               />
@@ -98,7 +98,7 @@ const Signin = () => {
               <label className="text-light">Password</label>
               <input
                 onChange={handleChange("password")}
-               // value={password}
+                value={password}
                 className="form-control"
                 type="password"
               />
@@ -118,7 +118,7 @@ const Signin = () => {
       {errorMessage()}
       {signInForm()}
       {performRedirect()}
-      <p className="text-white text-center">{JSON.stringify(values)}</p>
+     {/*  <p className="text-white text-center">{JSON.stringify(values)}</p>*/} 
     </Base>
   );
 };
